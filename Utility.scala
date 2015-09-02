@@ -2,6 +2,7 @@ package utilitypackage
 
 import scala.util.Random
 import Array._
+import utilitypackage.ArrayDistance
 
  
 
