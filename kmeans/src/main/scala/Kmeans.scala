@@ -35,15 +35,16 @@ trait Kmeans {
     return sets 
   }
 
-  def calculateCentroids(k: Int, thePoints: Array[Array[Double]], theSets: Array[Array[Int]]): Array[Array[Double]] {
-    centroids = ofDim[Double](k, thePoints.length)
+  def calculateCentroids(k: Int, thePoints: Array[Array[Double]], theSets: Array[Array[Int]]): Array[Array[Double]]= {
+    var centroids = ofDim[Double](k, thePoints.length)
     for(i<-0 to k) {
       for(j<-0 to thePoints.length)
-
+        println("sadfa") 
     }
+    return centroids
   }
 
-  def cluster(iterations: Int, k: Int, thePoints: Array[Array[Double]]) :Array[Array[Int]] {
+  def cluster(iterations: Int, k: Int, thePoints: Array[Array[Double]]) :Array[Array[Int]]= {
   
   }
 

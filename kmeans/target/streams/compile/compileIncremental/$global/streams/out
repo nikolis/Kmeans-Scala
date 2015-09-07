@@ -1,0 +1,37 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/nga/Scala/kmeans/src/main/scala/Utility.scala, /home/nga/Scala/kmeans/src/main/scala/KmeansExample.scala, /home/nga/Scala/kmeans/src/main/scala/Kmeans.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/nga/Scala/kmeans/src/main/scala/Utility.scala, /home/nga/Scala/kmeans/src/main/scala/KmeansExample.scala, /home/nga/Scala/kmeans/src/main/scala/Kmeans.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/nga/Scala/kmeans/src/main/scala/Utility.scala, /home/nga/Scala/kmeans/src/main/scala/KmeansExample.scala, /home/nga/Scala/kmeans/src/main/scala/Kmeans.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /home/nga/Scala/kmeans/target/scala-2.9.2/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.9.2[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.9.2[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 32d6c902, interfacing (CompilerInterface) with Scala compiler version 2.9.2[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/home/nga/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/nga/Scala/kmeans/target/scala-2.9.2/classes[0m
+[0m[[31merror[0m] [0m/home/nga/Scala/kmeans/src/main/scala/Kmeans.scala:47: type mismatch;[0m
+[0m[[31merror[0m] [0m found   : Unit[0m
+[0m[[31merror[0m] [0m required: Array[Array[Int]][0m
+[0m[[31merror[0m] [0m  def cluster(iterations: Int, k: Int, thePoints: Array[Array[Double]]) :Array[Array[Int]]= {[0m
+[0m[[31merror[0m] [0m                                                                                            ^[0m
+[0m[[33mwarn[0m] [0m/home/nga/Scala/kmeans/src/main/scala/Utility.scala:5: imported `ArrayDistance' is permanently hidden by definition of object ArrayDistance in package utilitypackage[0m
+[0m[[33mwarn[0m] [0mimport utilitypackage.ArrayDistance[0m
+[0m[[33mwarn[0m] [0m       ^[0m
+[0m[[33mwarn[0m] [0mone warning found[0m
+[0m[[31merror[0m] [0mone error found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
